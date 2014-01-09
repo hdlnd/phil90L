@@ -117,8 +117,13 @@ h1 {
 	margin-bottom: 30px;
 	text-align: left;
 }
+
+.announcements {
+	margin-bottom: 0;
+}
 .day {
 	font-size: 15px;
+	padding: 10px;
 }
 
 .reading {
@@ -126,12 +131,12 @@ h1 {
 }
 
 .part-title {
-	margin-bottom: 17px;
+	margin-bottom: 12px;
 }
 
 .part-title-content {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .class-details, .announcements {
@@ -141,13 +146,6 @@ h1 {
 	font-size: 11px;
 }
 
-
-
-@media (min-width: 768px) {
-	.class-details {
-		font-size: 14px;
-	}
-}
 .class-name {
 	margin-bottom: 5px;
 }
@@ -232,8 +230,17 @@ a.last-linkify:hover {
 	.class-details {
 		font-size: 14px;
 	}
+	.announcements {
+		margin-bottom: 20px;
+	}
 	.reading {
 		font-size: 15px;
 	}
+	.part-title {
+		margin-bottom: 17px;
+	}
+	.part-title-content {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
 }
-
